@@ -1,0 +1,83 @@
+body{
+	margin: 0; padding: 0;background-image: url("../img/comp/bk.png");
+	background-repeat: repeat-x; background-color: #EEE;
+}
+
+a{
+	text-decoration: none;
+	color: #404E90;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+a:link{text-decoration: none;}
+a:active{text-decoration: none;}
+a:hover{text-decoration: none; text-shadow: 0 0 3px #4DA6FF;}
+p{font-family: 'Open Sans', sans-serif;}
+
+h4, h3{margin: 0; padding: 0; font-weight: normal;}
+
+#topo-all{
+	position: relative; width: 100%; height: 150px;
+	background-color: #FFF; display: block;
+}
+#topo{
+	position: relative; width: 968px; height: 140px;
+	top: 5px; margin-left: auto; margin-right: auto;
+}
+#logo{position: absolute; }
+#empresas{
+	position: absolute; width: 423px; height: 97px;
+	top: 25px; right: 0; display: block;
+}
+.logo-empresas{position: relative; display: inline-block;}
+#menu{
+	position: relative; width: 100%; height: 41px;
+	background-color: #E9E9E9;
+
+	box-shadow: 0 1px 5px #AAA; 
+}
+#menu-in{
+	position: relative; width: 968px; top: 7px;
+	margin-left: auto; margin-right: auto; 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em; color: #404E90;
+	text-shadow: 1px 1px 1px #FFF;
+}
+#menu-in ul{margin: 0; padding: 0;}
+#menu-in li{display: inline-block; padding-right: 15px;}
+
+.hr{
+	position: relative; width: 95%; height: 3px;
+	margin-right: auto; margin-left: auto; 
+	background-image: url("img/hr.png"); 
+	background-repeat: repeat-x; display: block;
+}
+.hr-{
+	position: relative; width: 95%; height: 3px;
+	left: 0;
+	background-image: url("img/hr-.png"); 
+	background-repeat: no-repeat; display: block;
+}
+.-hr{
+	position: relative; width: 935px; height: 1px;
+	left: 0; margin-right: auto; margin-left: auto; 
+	background-image: url("img/ahr.png"); 
+	background-repeat: repeat-x; display: block;
+}
+.title{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em; color: #394685; 
+}
+.sect-title{
+	font-family: 'Open Sans', sans-serif;
+	font-size: .8em; color: #545454; 
+}
+.title-space{
+	display: relative; width: 680px; height: 3px;
+	left: 0; display: table;
+	background-image: url("../img/comp/img-comp/title-space.png"); 
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,21 @@
+.menu-itens{
+	background-image: url("../img/comp/ie-fix/bk-menu.jpg");
+	background-repeat: repeat-x;
+}
+.menu-itens:hover{color: #666;}
+#area-vip{
+	background-image: url("../img/comp/ie-fix/bk-area.jpg");
+	background-repeat: repeat-x;
+}
+.bt-palcas-associe{
+	background-image: url("../img/comp/ie-fix/bk-associe.jpg");
+	background-repeat: repeat-x;
+}
+.bt-palcas-associe:hover{
+	background-image: url("../img/comp/ie-fix/bk-associe-hover.jpg");
+	background-repeat: repeat-x;
+}
+.title-menu-left{
+	background-image: url("../img/comp/ie-fix/bk-title.jpg");
+	background-repeat: repeat-x;
+}

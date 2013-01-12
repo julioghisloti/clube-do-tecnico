@@ -1,0 +1,348 @@
+/*Clube do Técnico // 2.0 // Júlio Ghisloti*/
+
+/*====================================================================
+	Body
+====================================================================*/
+#body{
+	position: relative; width: 968px; display: block; 
+	top: 20px; margin-right: auto; margin-left: auto;
+}
+/*====================================================================
+	Block Left 
+====================================================================*/
+#block-left{
+	position: relative; width: 250px;
+	display: inline-table; margin-right: 18px;
+}
+.info-left-block{
+	position: relative; display: block; margin-bottom: 12px;
+}
+/* start -menu left- */
+	.title-menu-left{
+		height: 32px; list-style: none;
+		vertical-align: middle; font-weight: bold; font-size: 1.1em;
+		position: relative; padding-top: 8px; padding-left: 10px;
+		color: #FFF; 
+		text-shadow: 0 0 3px #000;
+		/* Gradient */
+			background-image: linear-gradient(rgb(94,108,185) 16%, rgb(58,70,133) 100%);
+			background-image: -o-linear-gradient(bottom, rgb(94,108,185) 16%, rgb(58,70,133) 100%);
+			background-image: -moz-linear-gradient(bottom, rgb(94,108,185) 16%, rgb(58,70,133) 100%);
+			background-image: -webkit-linear-gradient(bottom, rgb(94,108,185) 16%, rgb(58,70,133) 100%);
+			background-image: -ms-linear-gradient(bottom, rgb(94,108,185) 16%, rgb(58,70,133) 100%);
+
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				color-stop(0.16, rgb(94,108,185)),
+				color-stop(1, rgb(58,70,133))
+			);
+		/* Gradient */
+	}
+	#menu-left{
+		position: relative; width: 250px; left: 0;
+		font-family: 'Open Sans', sans-serif;
+		box-shadow: 0 0 5px #AAA;
+	}
+	#menu-left ul{padding: 0;}
+	#menu-left li{list-style: none;}
+	.menu-itens{
+		height: 30px; list-style: none;
+		vertical-align: middle; 
+		position: relative; padding-top: 10px; padding-left: 20px;
+		/* Gradient */
+			background-image: linear-gradient(rgb(204,204,204) 16%, rgb(240,240,240) 100%);
+			background-image: -o-linear-gradient(bottom, rgb(204,204,204) 16%, rgb(240,240,240) 100%);
+			background-image: -moz-linear-gradient(bottom, rgb(204,204,204) 16%, rgb(240,240,240) 100%);
+			background-image: -webkit-linear-gradient(bottom, rgb(204,204,204) 16%, rgb(240,240,240) 100%);
+			background-image: -ms-linear-gradient(bottom, rgb(204,204,204) 16%, rgb(240,240,240) 100%);
+
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				color-stop(0.16, rgb(204,204,204)),
+				color-stop(1, rgb(240,240,240))
+			);
+		/* Gradient */
+		-webkit-transition: all .5s ease-in-out;
+		-moz-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		-ms-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+	}
+	.menu-itens:hover{
+		color: #FFF;
+		text-shadow: 1px 1px 1px #000; 
+		cursor: pointer;
+		/* Gradient */
+			background-image: linear-gradient(rgb(187,187,187) 100%, rgb(204,204,204) 100%);
+			background-image: -o-linear-gradient(bottom, rgb(187,187,187) 100%, rgb(204,204,204) 100%);
+			background-image: -moz-linear-gradient(bottom, rgb(187,187,187) 100%, rgb(204,204,204) 100%);
+			background-image: -webkit-linear-gradient(bottom, rgb(187,187,187) 100%, rgb(204,204,204) 100%);
+			background-image: -ms-linear-gradient(bottom, rgb(187,187,187) 100%, rgb(204,204,204) 100%);
+
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				color-stop(1, rgb(187,187,187)),
+				color-stop(1, rgb(204,204,204))
+			);
+		/* Gradient */
+	}
+/* end -menu left- */
+/*====================================================================
+	Block Right 
+====================================================================*/
+.banner-block-right{
+	position: relative; width: 700px;
+	display: block; margin-bottom: 18px;
+}
+#block-right{
+	position: absolute; width: 700px;
+	top: 0; left: 268px; display: inline-table;
+}
+#baner-cobre-com{ height: 171px; }
+#banner-clube{ height: 165px; }
+.promo-top{
+	position: relative; width: 201px; height: 165px;
+	margin-right: 23px; display: inline-block;
+}
+/* start -area vip- */
+	#area-vip{
+		position: absolute; width: 215px; height: 135px;
+		padding: 15px;  border-radius: 10px; display: inline-block;
+		/* Gradient */
+				background-image: linear-gradient(
+								  	rgb(60,72,135) 31%, 
+								  	rgb(92,106,182) 83%);
+				background-image: -o-linear-gradient(
+									bottom, rgb(60,72,135) 31%, 
+									rgb(92,106,182) 83%);
+				background-image: -moz-linear-gradient(
+									bottom, rgb(60,72,135) 31%, 
+									rgb(92,106,182) 83%);
+				background-image: -webkit-linear-gradient(
+									bottom, rgb(60,72,135) 31%, 
+									rgb(92,106,182) 83%);
+				background-image: -ms-linear-gradient(
+									bottom, rgb(60,72,135) 31%, 
+									rgb(92,106,182) 83%);
+
+				background-image: -webkit-gradient(
+					linear,
+					left bottom,
+					left top,
+					color-stop(0.31, rgb(60,72,135)),
+					color-stop(0.83, rgb(92,106,182))
+				);
+		/* Gradient */
+	}
+	#title-area{
+		position: relative;; width: 100%; top: -5px; color: #FFF; 
+		text-align: center; text-shadow: 0 0 3px #000;
+		font-family: 'Open Sans', sans-serif; font-weight: bold;
+	}
+	#area-body{
+		position: relative; width: 195px; top: 3px;
+		margin-left: auto; margin-right: auto; color: #FFF;
+		border-top: 1px solid #9AA1CE; text-align: left;
+		font-family: 'Open Sans', sans-serif;
+	}
+	#area-body ul{
+		margin: 8px; padding: 0; list-style: none; 
+		list-style-position: outside;
+	}
+	#area-body li{
+		height: 24px; margin-bottom: 13px;
+	}
+/* end -area vip- */
+/* start -banner chamadas- */
+	#banner-chamadas{ height: 278px; }
+
+	#info-banner-chamadas-img{
+		position: relative; width: 700px; height: 250px;
+		display: block; background-color: black;
+	}
+	#nav-banner-chamadas{
+		position: relative; width: 248px; height: 17px;
+		top: 5px; margin-right: auto; margin-left: auto;
+	}
+	#nav-banner-chamadas ul{
+		margin: 0; padding: 0;
+	}
+	#nav-banner-chamadas li{
+		display: inline-block; background-color: #888;
+	}
+/* end -banner chamadas- */
+
+/*====================================================================
+	Site Body
+====================================================================*/
+/* start -placas planos- */
+	#placas-planos{ position: relative; top: 10px; }
+	#placas-planos ul{margin: 0; padding: 0; list-style: none;}
+	#placas-planos li{display: inline-block; margin-right: 5px;}
+	.placas-planos-in{
+		position: relative; width: 225px; height: 230px; 
+		background-color: #F7F7F7; border: 1px solid #DBDBDB;
+		display: block; text-align: center; color: #3F4D90;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.cap-placas-planos-in{
+		position: relative; width: 200px; top: 15px;
+		margin-left: auto; margin-right: auto;
+	}
+	.star-plano ul{margin: 0; padding: 0; list-style: none;} 
+	.star-plano li{margin-left: 1px; display: inline-block;}
+	.start-on{
+		position: relative; width: 15px; height: 15px;
+		background-image: url("../img/comp/planos-img/star/on.png");
+		background-repeat: no-repeat;
+	}
+	.start-off{
+		position: relative; width: 15px; height: 15px;
+		background-image: url("../img/comp/planos-img/star/off.png");
+		background-repeat: no-repeat;
+	}
+	.bt-palcas-associe{
+		position: relative; width: 100%; height: 28px; color: #FFF;
+		top: 18px; border-radius: 7px; padding-top: 4px; 
+		/* Gradient */
+			background-image: linear-gradient(rgb(63,77,144) 18%, rgb(94,108,185) 73%);
+			background-image: -o-linear-gradient(bottom, rgb(63,77,144) 18%, rgb(94,108,185) 73%);
+			background-image: -moz-linear-gradient(bottom, rgb(63,77,144) 18%, rgb(94,108,185) 73%);
+			background-image: -webkit-linear-gradient(bottom, rgb(63,77,144) 18%, rgb(94,108,185) 73%);
+			background-image: -ms-linear-gradient(bottom, rgb(63,77,144) 18%, rgb(94,108,185) 73%);
+
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				color-stop(0.18, rgb(63,77,144)),
+				color-stop(0.73, rgb(94,108,185))
+			);
+		/* Gradient */
+	}
+	.bt-palcas-associe:hover{
+		cursor: pointer; 
+		/* Gradient */
+			background-image: linear-gradient(rgb(94,108,185) 13%, rgb(63,77,144) 100%);
+			background-image: -o-linear-gradient(bottom, rgb(94,108,185) 13%, rgb(63,77,144) 100%);
+			background-image: -moz-linear-gradient(bottom, rgb(94,108,185) 13%, rgb(63,77,144) 100%);
+			background-image: -webkit-linear-gradient(bottom, rgb(94,108,185) 13%, rgb(63,77,144) 100%);
+			background-image: -ms-linear-gradient(bottom, rgb(94,108,185) 13%, rgb(63,77,144) 100%);
+
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				color-stop(0.13, rgb(94,108,185)),
+				color-stop(1, rgb(63,77,144))
+			);
+		/* Gradient */
+	}
+/* end -placas planos- */
+/* start -cursos online- */
+	#cursos-online{height: 400px;}
+	#cursos-online-container{
+		position: absolute; width: 700px; height: 296px; top: 75px;
+	}
+	.cursos-online-bt-bk-all{
+		position: absolute; width: 73px; height: 294px; top: 0;
+		background-image: url("../img/comp/cursos-online/setas.png");
+		background-repeat: no-repeat; z-index: 9998;
+	}
+	#cursos-online-bt-prev{ left: 0; background-position: -73px 0;}
+	#cursos-online-bt-next{ right: 0; background-position: 0 0;}
+	.cursos-online-bt-in-all{
+		position: absolute; width: 36px; height: 54px; top: 100px;
+		left: 19px; z-index: 9999;
+		background-image: url("../img/comp/cursos-online/setas.png");
+		background-repeat: no-repeat; background-color: #888;
+		-webkit-transition: all .5s ease-in-out;
+		-moz-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		-ms-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+	}
+	.cursos-online-bt-in-all:hover{background-color: #404E90;}
+	#cursos-online-bt-in-prev{background-position: -147px 0;}
+	#cursos-online-bt-in-next{background-position: -147px -53px;}
+	#cursos-online-slideshow{ 
+	 	position: relative; max-width: 700px; height: 294px; 
+	 	top: 23px; overflow: hidden;
+	}
+	#cursos-online-slideshow ul{padding: 0; margin: 0; width: 700px;}
+	#cursos-online-slideshow li{
+		position: relative; width: 200px; height: 269px; 
+		padding: 10px; border-radius: 6px; border: 1px solid #DBDBDB; 
+		margin-right: 5px; background-color: #F7F7F7; 
+		display: inline-block;
+	}
+	.cursos-online-slideshow-in{
+		position: relative; width: 200px; height: 269px; 
+		display: block; font-family: 'Open Sans', sans-serif;
+	}
+/* end -cursos online- */
+/* start -simuladores- */
+	#simuladores-in{width: 704px; margin-top: 10px;}
+	#simuladores-in ul{margin: 0; padding: 0; list-style: none;}
+	#simuladores-in li{
+		position: relative; width: 205px; height: 170px; 
+		display: inline-block; margin-right: 5px; padding: 10px;
+		background-color: #F7F7F7; border: 1px solid #CCC;
+		font-family: 'Open Sans', sans-serif; font-size: .9em;
+	}
+	.simuladores-in-img{position: relative; top: 15px;}
+/* end -simuladores- */
+/* start -apostilas- */
+	#apostilas-in{ width: 708px; margin-top: 10px;}
+	.apostilas-in-options{
+		position: relative; width: 211px; height: 180px; 
+		display: inline-block; padding: 7px; margin-bottom: 8px;
+		margin-right: 4px;
+		background-color: #F7F7F7; border: 1px solid #CCC;
+		font-family: 'Open Sans', sans-serif;
+
+		-webkit-transition: all .5s ease-in-out;
+		-moz-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		-ms-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+	}
+	.apostilas-in-options:hover{
+		background-color: #2F3A6F; color: #FFF; height: 265px;
+		border: 1px solid #2F3A6F; z-index: 9998;
+		box-shadow: 0 0 15px #666;
+	}
+	.apostilas-in-options:hover .apostilas-in-description{
+		display: block;
+	} 
+	.apostilas-in-options-img{
+		position: relative; top: 10px; text-align: center;
+	}
+	.apostilas-in-description{
+		position: absolute; top: 180px; width: 211px; display: none;
+		font-size: .8em; font-family: 'Open Sans', sans-serif;
+		z-index: 9999; color: #FFF; 
+	}
+	.apostilas-in-options:hover .apostilas-in-description{
+		display: block;
+	} 
+/* end -apostilas- */
+/* start -mais baixadas- */
+	#mais-baixadas-in{margin-top: 10px; width: 800px;}
+	.mais-baixadas-in-options{
+		position: relative; width: 322px; height: 39px; 
+		display: inline-block; 
+		padding: 10px; margin-bottom: 8px; margin-right: 4px;
+		background-color: #F7F7F7; border: 1px solid #CCC;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.title-mais-baixadas{
+		position: relative; top: -37px; left: 65px;
+	}
+/* end -mais baixadas- */

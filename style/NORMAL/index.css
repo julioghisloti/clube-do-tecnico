@@ -1,0 +1,94 @@
+/*Clube do Técnico // 2.0 // Júlio Ghisloti*/
+/*
+======================================================================
+	Block Top 
+======================================================================
+*/
+#block-top{
+	position: relative; top: 18px; width: 968px; height: 490px;
+	margin-left: auto; margin-right: auto; display: block;
+}
+#left-info{
+	position: absolute; left: 0; width: 250px; display: inline-block;
+	margin-right: 16px;
+}
+/* -start- IMGs info block top */
+	.info-left-block{
+		position: relative; display: block; margin-bottom: 12px;
+	}
+/* -end- IMGs info block top */
+/* -start- right banner's */
+	#right-top-banners{
+		position: relative; width: 702px; height: 490px; 
+		float: right;
+	}
+	#option-top{
+		position: relative; width: 702px; height: 194px; 
+		display: block; margin-bottom: 16px;
+	}
+	.block-option-top{
+		position: relative; width: 215px; height: 194px;
+		margin-right: 25px; background-color: black;
+		display: inline-block;
+	}
+	#area-vip{
+		position: absolute; width: 215px; height: 164px;
+		top: 17px; border-radius: 3px; display: inline-block;
+		/* Gradient */
+			background-image: linear-gradient(
+							  	bottom, rgb(60,72,135) 31%, 
+							  	rgb(92,106,182) 83%);
+			background-image: -o-linear-gradient(
+								bottom, rgb(60,72,135) 31%, 
+								rgb(92,106,182) 83%);
+			background-image: -moz-linear-gradient(
+								bottom, rgb(60,72,135) 31%, 
+								rgb(92,106,182) 83%);
+			background-image: -webkit-linear-gradient(
+								bottom, rgb(60,72,135) 31%, 
+								rgb(92,106,182) 83%);
+			background-image: -ms-linear-gradient(
+								bottom, rgb(60,72,135) 31%, 
+								rgb(92,106,182) 83%);
+
+			background-image: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				color-stop(0.31, rgb(60,72,135)),
+				color-stop(0.83, rgb(92,106,182))
+			);/* Gradient */
+	}
+	#info-banner-all{
+		position: relative; width: 702px; height: 279px; 
+	}
+	#info-banner-img{
+		position: relative; width: 702px; height: 255px;
+		background-color: black;
+	}
+	#nav{
+		position: relative; width: 248px; height: 17px;
+		top: 5px; margin-right: auto; margin-left: auto;
+	}
+	#nav ul{
+		margin: 0; padding: 0;
+	}
+	#nav li{
+		display: inline-block; background-color: #888;
+	}
+	#body-all{
+		position: relative; width: 968px; top: 50px;
+		margin-right: auto; margin-left: auto;
+	}
+	#menu-left{
+		position: absolute; width: 250px; left: 0;
+		font-family: 'Open Sans', sans-serif;
+	}
+	#menu-left ul{margin: 0; left: 0; }
+	#menu-left li{
+		height: 30px; list-style: none;
+		background-image: url("../img/comp/menu-bk.png"); 
+		background-repeat: repeat-x; vertical-align: middle;
+		position: relative; padding-top: 10px; padding-left: 20px;
+	}
+/* -end- right banner's */
