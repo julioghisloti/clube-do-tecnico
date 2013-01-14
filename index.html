@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>..:: EAD-Clube do Técnico::..</title>
 	<link rel="stylesheet" href="style/base.min.css" />
-	<link rel="stylesheet" href="style/home.css" />
+	<link rel="stylesheet" href="style/home.min.css" />
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.jcarousellite.js"></script>
 	<script src="js/script.js"></script>
@@ -30,6 +30,15 @@
 	<![endif]-->
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+  		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 	<!-- start -topo all- -->
 		<header id="topo-all">
 			<div id="topo">
@@ -729,6 +738,50 @@
 			
 		</section>
 	<!-- end -body- -->
+	
+	<!-- start -footer- -->
+		<footer class="footer">
+			<div class="footer-in">
+				<div class="footer-line">
+					<ul>
+						<li><a href="#">Voltar ao Inicio</a></li>
+						<li><a href="#">Cursos Online</a></li>
+						<li><a href="#">Empregos e Estágios</a></li>
+					</ul>
+				</div>
+				<div class="footer-line">
+					<ul>
+						<li><a href="#">Como faço para me Associar?</a></li>
+						<li><a href="#">Entrar na Área VIP</a></li>
+						<li><a href="#">Sócio VIP Júnior</a></li>
+						<li><a href="#">Sócio VIP Pleno</a></li>
+						<li><a href="#">Sócio VIP Pleno Gold</a></li>
+					</ul>
+				</div>
+				<div class="footer-line">
+					<ul>
+						<li><a href="#">Sala de aula virtual</a></li>
+						<li><a href="#">Feiras e Eventos</a></li>
+						<li><a href="#">Quem somos</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</div>
+				<div class="footer-line">
+					<div class="fb-like"
+						 data-href="https://www.facebook.com/clubedotecnico" 
+						 data-send="true" data-layout="button_count" 
+						 data-width="1000" data-show-faces="true">
+					</div>
+				</div>
+				<div class="footer-line">
+					<span class="COPYRIGHT">
+						<br />
+						COPYRIGHT© 2006 - 2013 Colube do Técnico® 
+					</span>
+				</div>
+			</div>
+		</footer>
+	<!-- end -footer- -->
 	
 </body>
 </html>
