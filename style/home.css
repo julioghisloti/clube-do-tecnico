@@ -346,3 +346,27 @@
 		position: relative; top: -37px; left: 65px;
 	}
 /* end -mais baixadas- */
+/* start -videos- */	
+	.videos-in{margin-top: 10px;}
+	.aulas-videos-all{
+		position: absolute; width: 360px; height: 264px; 
+		top: 64px; left: 335px;
+	}
+	.up-aulas-videos-block{
+		position: absolute; width: 16px; height: 23px; display: block;
+		top: 120px; left: 1px; z-index: 9999;
+		background-image: url("../img/comp/img-comp/up-videos.jpg");
+		background-repeat:  no-repeat;
+	}
+	.aulas-videos-block{
+		position: absolute; width: 348px; height: 264px;
+		left: 0; margin-left: 10px;  
+		display: block; border-radius: 5px;
+		background-color: #F7F7F7; border: 1px solid #CCC;
+		color: #525252; font-family: 'Open Sans', sans-serif;
+		font-size: .9em;
+	}
+	.aulas-videos-block ul{
+		padding-left: 10px; margin-top: 10px; list-style: none;
+	}
+/* end -videos- */
